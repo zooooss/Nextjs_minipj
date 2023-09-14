@@ -1,0 +1,4 @@
+/* 루트레이아웃에 입혀진 css이기에 전역적으로 사용되는 스타일 */
+h1 a {
+    text-decoration: none;
+}
