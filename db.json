@@ -19,6 +19,16 @@
       "title": "z",
       "body": "z is zoo",
       "id": 4
+    },
+    {
+      "title": "javascript",
+      "body": "javascript is ...",
+      "id": 5
+    },
+    {
+      "title": "hi",
+      "body": "hello",
+      "id": 6
     }
   ],
   "posts": [
