@@ -19,7 +19,7 @@ export default async function RootLayout({ children }) {
                     {topics.map((topic) => {
                         return (
                             <li key={topic.id}>
-                                <Link href={'/read/${topic.id}'}>{topic.title}</Link>
+                                <Link href={`/read/${topic.id}`}>{topic.title}</Link>
                             </li>
                         );
                     })}
@@ -34,7 +34,7 @@ export default async function RootLayout({ children }) {
                         <Link href="/update/1">Update</Link>
                     </li>
                     <li>
-                        <input type="button" value="delete" />
+                        <button>delete</button>
                     </li>
                 </ul>
             </body>

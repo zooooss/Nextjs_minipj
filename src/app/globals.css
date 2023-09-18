@@ -1,4 +1,27 @@
+/* tailwind불러오는코드필요 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* 루트레이아웃에 입혀진 css이기에 전역적으로 사용되는 스타일 */
-h1 a {
-    text-decoration: none;
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    cursor: default;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+li {
+    background-color: pink;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 40px;
 }
