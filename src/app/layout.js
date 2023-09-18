@@ -1,3 +1,4 @@
+import { Control } from './Control';
 import './globals.css';
 import Link from 'next/link';
 
@@ -13,7 +14,7 @@ export default async function RootLayout({ children }) {
         <html>
             <body>
                 <h1>
-                    <Link href="/">WEB</Link>
+                    <Link href="/">HOME</Link>
                 </h1>
                 <ol>
                     {topics.map((topic) => {
@@ -26,17 +27,7 @@ export default async function RootLayout({ children }) {
                 </ol>
                 {children}
                 {/* page에서만든컨텐츠는여기 */}
-                <ul>
-                    <li>
-                        <Link href="/create">Create</Link>
-                    </li>
-                    <li>
-                        <Link href="/update/1">Update</Link>
-                    </li>
-                    <li>
-                        <button>delete</button>
-                    </li>
-                </ul>
+                <Control />
             </body>
         </html>
     );
