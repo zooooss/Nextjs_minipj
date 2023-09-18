@@ -1,16 +1,26 @@
+## 🌀Nextjs 스터디를 위한 미니 프로젝트
+
+## 다룬 내용
+- Next.js의 설치, 실행, 배포, 그리고 Vercel 플랫폼을 이용한 배포 방법
+- CRUD(Create, Read, Update, Delete) 웹 앱의 구축
+- Next.js의 라우팅 시스템에 대한 이해
+- SPA(Single Page Application) 
+- SSR(Server Side Rendering) 개념
+- Next.js를 API 서버로 사용하는 방법
+- Server Component와 Client Component의 차이와 사용법
+- Next.js에서의 환경 변수 사용 방법
+
+## 따라간 수업 링크
+<https://opentutorials.org/module/6341>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## 🌀Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
